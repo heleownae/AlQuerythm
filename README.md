@@ -21,12 +21,12 @@
   <tbody>
     <tr>
       <td align="center"><a href="https://github.com/ny1yyy"><img src="https://avatars.githubusercontent.com/u/135477812?v=4" width="100px;" alt="박나영"/><br /><sub><b>박나영</b></sub></a><br /></td>
-      <td align="center"><a href="https://github.com/"><img src="" width="100px;" alt="배시현"/><br /><sub><b>배시현</b></sub></a><br /></td>
+      <td align="center"><a href="https://github.com/dataosean"><img src="https://avatars.githubusercontent.com/u/156559007?v=4" width="100px;" alt="배시현"/><br /><sub><b>배시현</b></sub></a><br /></td>
       <td align="center"><a href="https://github.com/neddy0318"><img src="https://avatars.githubusercontent.com/u/152957560?v=4" width="100px;" alt="신승현"/><br /><sub><b>신승현</b></sub></a><br /></td>
       <td align="center"><a href="https://github.com/ssoheeL"><img src="https://avatars.githubusercontent.com/u/157769708?v=4" width="100px;" alt="이소희"/><br /><sub><b>이소희</b></sub></a><br /></td>
       <td align="center"><a href="https://github.com/heleownae"><img src="https://avatars.githubusercontent.com/u/152258170?v=4" width="100px;" alt="이해원"/><br /><sub><b>이해원</b></sub></a><br /></td>
-      <td align="center"><a href="https://github.com/"><img src="" width="100px;" alt="정노을"/><br /><sub><b>정노을</b></sub></a><br /></td>
-      <td align="center"><a href="https://github.com/"><img src="" width="100px;" alt="황기쁨"/><br /><sub><b>황기쁨</b></sub></a><br /></td>
+      <td align="center"><a href="https://github.com/augnoel"><img src="https://avatars.githubusercontent.com/u/157769634?v=4" width="100px;" alt="정노을"/><br /><sub><b>정노을</b></sub></a><br /></td>
+      <td align="center"><a href="https://github.com/DIB-PP"><img src="https://avatars.githubusercontent.com/u/155515440?v=4" width="100px;" alt="황기쁨"/><br /><sub><b>황기쁨</b></sub></a><br /></td>
     </tr>
   </tbody>
 </table>
