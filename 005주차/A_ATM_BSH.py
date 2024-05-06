@@ -1,11 +1,10 @@
-a = [int(input()) for i in range(int(input()))]
-a.sort()
-result = []
+people = int(input())
+answer = sorted(map(int, input().split()))
+result = 0
 added = 0
-for i in a:
-    if len(result) == 0:
-        result.append(i)
-    else:
-        result.append(added+i)
+
+for i in answer:
+    result+= i+added
     added += i
-print(sum(result))
+
+print(result)
