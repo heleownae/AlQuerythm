@@ -1,5 +1,3 @@
-# 틀린 답임
-# 근데 푸는 방법이 더 이상 생각 안남
 SELECT ROUND(AVG(LAT_N), 4) AS median
 FROM (
   SELECT LAT_N
