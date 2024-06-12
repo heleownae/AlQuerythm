@@ -1,7 +1,7 @@
 WITH SkillSets AS (
     SELECT D.ID,
            D.EMAIL,
-  --스킬을 가지고 있는지에 따라 1, 0 출력하여 1만 뽑
+  -- 스킬을 가지고 있는지에 따라 1, 0 출력하여 1만 뽑
            MAX(CASE WHEN S.CATEGORY = 'Front End' THEN 1 ELSE 0 END) AS HasFrontEnd,
            MAX(CASE WHEN S.NAME = 'Python' THEN 1 ELSE 0 END) AS HasPython,
            MAX(CASE WHEN S.NAME = 'C#' THEN 1 ELSE 0 END) AS HasCSharp
