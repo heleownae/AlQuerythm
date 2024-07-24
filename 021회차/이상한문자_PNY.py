@@ -1,5 +1,6 @@
 def solution(s):
     answer = ''
+    
     for i in s.split(' '):
         for j in range(len(i)):
             if j%2 == 0:
@@ -7,4 +8,5 @@ def solution(s):
             else:
                 answer += i[j].lower()
         answer = answer + ' '
+        
     return answer[0:-1]
