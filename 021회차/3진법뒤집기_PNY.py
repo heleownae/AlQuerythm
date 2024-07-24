@@ -1,5 +1,6 @@
 def solution(n):
     bb = ''
+    
     while n:
         bb += str(n%3) # bb = bb + str(n%3) 과 같은 뜻
         n //= 3
