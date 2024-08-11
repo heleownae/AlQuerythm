@@ -1,2 +1,2 @@
 select ei.unique_id, es.name
-from employees es left join employuni ei on es.id = ei.id
+from employees as es left join employuni as ei on es.id = ei.id
