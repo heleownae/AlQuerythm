@@ -1,0 +1,25 @@
+### ✏️ 24회차
+
+24.08.15. (목): 풀이 소요 시간이 증가하여 2문제로 변경합니다.
+
+- 파이썬
+
+  - 48 [K번째 수](https://school.programmers.co.kr/learn/courses/30/lessons/42748)
+
+  - 49 [두 개 뽑아서 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/68644)
+
+- SQL
+
+  - 83 [Product Sales Analysis I](https://leetcode.com/problems/product-sales-analysis-i/)
+
+24.08.19. (월)
+
+- 파이썬
+
+  - 50 [가장 가까운 같은 글자](https://school.programmers.co.kr/learn/courses/30/lessons/142086)
+
+  - 51 [푸드 파이트 대회](https://school.programmers.co.kr/learn/courses/30/lessons/134240)
+
+- SQL
+
+</br>
