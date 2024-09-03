@@ -15,7 +15,7 @@ def solution(answers):
         if c[i]==j:
             result[2] += 1
 
-    # 최대로 맞은 사람들을 필터링하
+    # 최대로 맞은 사람들을 필터링
     max_result = max(result)
 
     return [i+1 for i,j in enumerate(result) if j == max_result]
