@@ -1,15 +1,12 @@
 def solution(n, m, section):
-    painting = [i for i in range(section[0],section[-1]+1)]
-    num=0
+        num = 0
+        current_position = 0
 
-    for i in range(len(painting)):
-        if section[0] in painting:
-            del section[0]
-            del painting[:m]
-            num+=1
-        else:
-            del section[0]
-        if painting == []:
-            break
-    # 정확성 38%...
-    return num
+        for s in section:
+            
+            # 현재 롤러 위치 계속 업데이트하는 방법
+            if current_position < s:
+                num += 1  # 롤러 작업당 업데이트
+                current_position = s + m - 1  # 롤러의 위치 업데이트
+
+        return num
