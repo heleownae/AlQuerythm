@@ -11,7 +11,7 @@ def c_divisor(n):  # 약수의 개수 구하는 함수
 def solution(number, limit, power):
     div_list = []
     
-    for n in range(1, number+1):
+    for n in range(1, number + 1):
         div = c_divisor(n)
         if div > limit:
             div_list.append(power)
