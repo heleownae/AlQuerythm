@@ -13,3 +13,7 @@ def solution(number, limit, power):
     temp = [min(get_divider_n(x), power) if get_divider_n(x) > limit else get_divider_n(x) for x in range(1, number + 1)]
     
     return sum(temp)
+
+
+
+###약수 구할 때 제곱근만 바꾸면 됨
