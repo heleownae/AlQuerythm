@@ -1,4 +1,5 @@
 # 시간초과: index, remove 문제
+'''
 def solution(X, Y):
     result=[]
 
@@ -19,7 +20,7 @@ def solution(X, Y):
     else:
         result.sort(reverse=True)
         return ''.join(map(str,result))
-
+'''
 # 개선 방안
 from collections import Counter
 
