@@ -21,7 +21,7 @@ def solution(X, Y):
         result.sort(reverse=True)
         return ''.join(map(str,result))
 '''
-# 개선 방안
+# 개선 방안: 수를 하나하나 확인하지 말고 빈도수로 계산한다.
 from collections import Counter
 
 def solution(X, Y):
