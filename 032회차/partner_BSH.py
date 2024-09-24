@@ -1,5 +1,5 @@
 '''
-# 시간초과: index, remove 문제
+# 시간초과: index, remove 문제 -> 시간복잡도 O(n)과 O(n)이 만나 O(n^2)가 됨.
 def solution(X, Y):
     result=[]
 
