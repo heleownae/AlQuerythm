@@ -6,3 +6,5 @@ FROM
     Queries
 GROUP BY
     query_name;
+
+-- ROUND(((SELECT COUNT(query_name) FROM Queries WHERE rating<3)/COUNT(query_name))*100,2) 서브쿼리써서 QUERY_NAME 구분이 안됐던 문제
