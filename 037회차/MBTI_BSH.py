@@ -1,7 +1,7 @@
 def solution(survey, choices):
-    score={1:3,2:2,3:1,4:0,5:1,6:2,7:3}
-    mbti={'R':0,'T':0,'C':0,'F':0,'J':0,'M':0,'A':0,'N':0}
-    mbti_list=['RT','CF','JM','AN']
+    score={1:3,2:2,3:1,4:0,5:1,6:2,7:3}  # 1. 항목별 점수 부여
+    mbti={'R':0,'T':0,'C':0,'F':0,'J':0,'M':0,'A':0,'N':0}  # 2. 점수 모으기
+    mbti_list=['RT','CF','JM','AN']  # 3. 모은 점수 할당하기
     result=[]
 
     for i,e in enumerate(survey):
@@ -11,7 +11,7 @@ def solution(survey, choices):
         else:
             mbti[e[1]]=mbti[e[1]]+score[choice]
 
-    for  word in mbti_list:
+    for  word in mbti_list:  # 점수 체크해서 유형 확정하기
         if mbti[ word[0]] > mbti[ word[1]]:
             result.append( word[0])
         elif mbti[ word[0]] < mbti[ word[1]]:
