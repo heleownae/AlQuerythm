@@ -5,7 +5,7 @@ WITH FirstLogin AS (
     GROUP BY player_id
 ),
 
--- 첫 로그인한 다음 날 다시 로그인한 플레이어를 찾음.
+-- DATEDIFF를 활용, 첫 로그인한 다음 날 다시 로그인한 플레이어를 찾음.
 NextDayLogin AS (
     SELECT f.player_id
     FROM FirstLogin AS f
