@@ -11,4 +11,4 @@ def solution(players, callings):
                 dict[hit[0]-1]=run
                 dict[hit[0]]=word
 
-    return list(dict.values())
+    return list(dict.values())  # 일부 시간초과ㅠㅠ
