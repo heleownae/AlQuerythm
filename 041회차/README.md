@@ -1,11 +1,10 @@
-
 ### ✏️ 41회차
 
 24.10.30 (목)
 
 - Python
 
-  - 73 [신고 결과 받기](https://school.programmers.co.kr/learn/courses/30/lessons/92334)
+  - 74 [신고 결과 받기](https://school.programmers.co.kr/learn/courses/30/lessons/92334)
  
 - SQL
 
