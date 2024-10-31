@@ -1,6 +1,6 @@
-# 테스트 케이스 외 실패
 def solution(id_list, report, k):
-    breaker=[a.split(' ')[1] for a in list(set(report))]
+    report=list(set(report))  # 미리 정의해서 오답확률을 없앰.
+    breaker=[a.split(' ')[1] for a in report]
     from collections import Counter
     breakers=Counter(breaker)
     outer=[key for key,value in breakers.items() if value>=k]
