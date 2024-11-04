@@ -12,10 +12,10 @@ def solution(park, routes):
             break
     
     direction = {
-        'N': (-1, 0),  # 북쪽
-        'S': (1, 0),   # 남쪽
-        'W': (0, -1),  # 서쪽
-        'E': (0, 1)    # 동쪽
+        'N': (-1, 0),
+        'S': (1, 0),
+        'W': (0, -1),
+        'E': (0, 1)
     }
     
     current_x, current_y = start_x, start_y
@@ -23,24 +23,20 @@ def solution(park, routes):
     for route in routes:
         op, n = route.split()
         n = int(n)
+        
         dx, dy = direction[op]
         
-        new_x, new_y = current_x, current_y
-        
-        can_move = True
-        for step in range(n):
-            new_x += dx
-            new_y += dy
+        valid_move = True
+        for step in range(1, n + 1):
+            new_x = current_x + dx * step
+            new_y = current_y + dy * step
             
-            if new_x < 0 or new_x >= H or new_y < 0 or new_y >= W:
-                can_move = False
-                break
-            
-            if park[new_x][new_y] == 'X':
-                can_move = False
+            if new_x < 0 or new_x >= H or new_y < 0 or new_y >= W or park[new_x][new_y] == 'X':
+                valid_move = False
                 break
         
-        if can_move:
-            current_x, current_y = new_x, new_y
+        if valid_move:
+            current_x += dx * n
+            current_y += dy * n
     
     return [current_x, current_y]
