@@ -1,11 +1,11 @@
-### ✏️ 43회차
+### ✏️ 44회차
 
-24.11.07 (목)
+24.11.11 (월)
 
 - Python
 
-  - 75 [최댓값과 최솟값](https://school.programmers.co.kr/learn/courses/30/lessons/12939)
+  - 76 [JadenCase 문자열 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12951)
  
 - SQL
 
-  - 102 [Classes More Than 5 Students](https://leetcode.com/problems/classes-more-than-5-students/description/)
+  - 103 [Find Followers Count](https://leetcode.com/problems/find-followers-count/description/)
