@@ -4,7 +4,7 @@
 
 - Python
 
-  - 73 [공원 산책](https://school.programmers.co.kr/learn/courses/30/lessons/172928)
+  - 73 [최댓값과 최솟값](https://school.programmers.co.kr/learn/courses/30/lessons/12939)
  
 - SQL
 
