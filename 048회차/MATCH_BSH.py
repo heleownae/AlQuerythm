@@ -9,3 +9,4 @@ def solution(n,a,b):
     return result+1
 
 # 테케 4개 틀림;
+# n=? a=2 b=3
