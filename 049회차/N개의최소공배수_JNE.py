@@ -2,6 +2,7 @@ import math
 
 def solution(arr):
     # 1은 모든 자연수의 약수니까 일단 넣어놈
+    # 첫번째 요소의 최소공배수 구하기 위해
     a = 1
     for i in range(len(arr)):
         b = arr[i]
