@@ -1,7 +1,7 @@
 def solution(arr):
     answer=0
     arr=sorted(arr)
-    for i in range(len(arr)-1):
+    for i in range(len(arr)-1):  # 유클리드 알고리즘 활용(?!)
         arr1 = arr.pop(-1)
         arr2 = arr.pop(-1)
         while True:
