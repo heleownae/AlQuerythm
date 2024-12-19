@@ -22,19 +22,18 @@ def solution(arr):
 
     return answer
 
-# 더 쉬운 방법
+# 더 쉬운 방법이 있다.
 
-import math
+def solution(arr):
+    import math
 
-arr = [2, 6, 8, 14]
+    # 1. 두 수씩 최소공배수를 계산한다.
+    def lcm(a, b):
+        return abs(a * b) // math.gcd(a, b)  # 최대공약수 gcd
 
-# 1. 두 수씩 최소공배수를 계산한다.
-def lcm(a, b):
-    return abs(a * b) // math.gcd(a, b)  # 최대공약수 gcd
+    # 2. 배열의 최소공배수를 계산한다.
+    answer = arr[0]
+    for num in arr[1:]:
+        answer = lcm(answer, num)
 
-# 2. 배열의 최소공배수를 계산한다.
-answer = arr[0]
-for num in arr[1:]:
-    answer = lcm(answer, num)
-
-print(answer)
+    return answer
