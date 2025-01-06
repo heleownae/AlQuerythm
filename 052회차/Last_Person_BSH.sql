@@ -1,11 +1,11 @@
-WITH Totalweight AS(
+WITH Totalweight AS (
     SELECT
         person_name,
         weight,
         SUM(weight) OVER(ORDER BY turn) AS total # 누적합 sum over
     FROM
-        Queue
-)
+        Queue)
+
 SELECT
     person_name
 FROM
