@@ -11,7 +11,7 @@ SELECT
 FROM
     Totalweight
 WHERE
-    total <= 1000
+    total <= 1000 # 1000과 같거나 작은 이름부터 내림차순
 ORDER BY
     total DESC
 LIMIT
