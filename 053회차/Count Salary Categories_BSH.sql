@@ -8,7 +8,8 @@ SELECT
         WHEN income > 50000 THEN 'High Salary'
     END AS category,
     income
-FROM Accounts)
+FROM
+    Accounts)
 
 SELECT
     category,
