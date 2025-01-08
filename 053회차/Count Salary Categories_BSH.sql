@@ -10,6 +10,10 @@ SELECT
     income
 FROM Accounts)
 
-SELECT category, COUNT(*) AS accounts_count
-FROM Result
-GROUP BY category
+SELECT
+    category,
+    COUNT(*) AS accounts_count
+FROM
+    Result
+GROUP BY
+    category
